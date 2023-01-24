@@ -132,3 +132,31 @@ console.log(string);
 const named = "Chris";
 const greeting = `Hello, ${named}`;
 console.log(greeting);
+
+
+const one = "Hello, ";
+const two = "how are you?";
+const joined = `${one}${two}`;
+console.log(joined);
+
+// Concatenation in Context //
+
+//const button = document.querySelector("button");
+
+// function greet(){
+   // const names = window.prompt("What is your name?");
+   // alert(`Hello ${names}, nice to see you!`);
+// }
+
+// button.addEventListener("click", greet);
+
+// Expressions in strings
+
+const song = "Fight the Youth";
+const score = 9;
+const highestscore = 10;
+const output = `I like the song ${song}. I gave it a score of ${
+    (score/highestscore) * 100
+}%.`;
+
+console.log(output)
