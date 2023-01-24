@@ -109,3 +109,8 @@ let percentage = actual/max
 
 console.log(percentage)
 
+// what does unary plus operator do to a string representations of integers?
+// e.g. +'10'
+
+let unary = 2
+console.log(+unary)
