@@ -114,3 +114,21 @@ console.log(percentage)
 
 let unary = 2
 console.log(+unary)
+
+
+//Practicing Strings//
+
+const string = "The revolution will not be televised.";
+console.log(string);
+
+//Practicing bad strings
+
+// const badString1 = This is a test;
+// const badString2 = 'This is a test;
+// const badString3 = This is a test'; 
+
+// Practicing Template Literal strings
+
+const named = "Chris";
+const greeting = `Hello, ${named}`;
+console.log(greeting);
