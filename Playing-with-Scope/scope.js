@@ -7,6 +7,6 @@
 
 // Output() itself is available from anywere as it is defined in the global scope
 
-// Changing the output inside the a/b/ functions to (x), produces the value of x when called in the viewport. This works because x is a global variable so available inside all code
+// Changing the output inside the a/b functions to (x), produces the value of x when called in the viewport. This works because x is a global variable so available inside all code
 
-//
+// Changing the output inside a/b functions to the opposite variable (z/y) also returns an error because z/y aren't global functions, and are locked in the opposite functions
