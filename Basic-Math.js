@@ -130,8 +130,8 @@ console.log(string);
 // Practicing Template Literal strings
 
 const named = "Chris";
-const greeting = `Hello, ${named}`;
-console.log(greeting);
+// const greeting = `Hello, ${named}`;
+// console.log(greeting);
 
 
 const one = "Hello, ";
@@ -160,3 +160,18 @@ const output = `I like the song ${song}. I gave it a score of ${
 }%.`;
 
 console.log(output)
+
+// Direction flow Exercise
+// https://www.theodinproject.com/lessons/foundations-fundamentals-part-2 
+
+
+const currentYear = 2023;
+const birthYear = 1998;
+const firstName = "Fiona";
+const lastName = "Kent";
+const fullName = (firstName + " " + lastName)
+const age = (currentYear - birthYear);
+
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
+
+console.log(greeting);
