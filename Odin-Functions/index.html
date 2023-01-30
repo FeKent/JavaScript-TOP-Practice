@@ -5,8 +5,32 @@
         <title>Odin Function Practice</title>
     </head>
     <body>
+        <div>Today we're practicing making some functions from the Odin Project Assignments</div>
         <script>
-            
+
+            let numInput = 6;
+            let stringInput = "hello World!"
+
+            function add7(){
+                return numInput + 7;
+            }
+
+            function multiply7(){
+                return numInput * 7;
+            }
+
+            function capitalize(){
+                return stringInput[0].toUpperCase() + stringInput.slice(1);
+            }
+            //Struggled a little with this one, but the square brackets replaced charAt, which chooses which character the upper case is being applied to, the + stringInput.slice(1) is used to remove the original, lowercase letter that we've now capitalised
+
+            function lastLetter(){
+                return stringInput.slice(-1);
+            }
+            //Using slice(-1) means that you don't have to count the amount of characters in the string so you can use charAt which was my first instinct. Using a negative means the position is counted from the end of the string and there is no -0.
+
+
+
         </script>
     </body>
 </html>
