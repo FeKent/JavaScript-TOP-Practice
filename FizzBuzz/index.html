@@ -3,12 +3,37 @@
     <head>
         <meta charset="utf-8">
         <title>Fizz Buzz Game</title>
+        
+        <style>
+            div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-size: 27px;
+                font-weight: bold;
+            }
+        </style>
+
     </head>
     <body>
         <div>Let's play a game of FizzBuzz!</div>
 
         <script>
-            
+            //User Inputs a number
+            let answer = parseInt(prompt("Please enter the number you would like to FizzBuzz up to: "));
+
+            for (let i=1; i <= answer; i++){
+                if (i % 3 === 0 && i % 5 === 0){
+                    console.log("FizzBuzz");
+                } else if (i % 3 === 0){
+                    console.log("Fizz");
+                } else if (i % 5 === 0){
+                    console.log("Buzz");
+                } else{
+                    console.log(i);
+                }
+            }
 
         </script>
 
