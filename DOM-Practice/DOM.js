@@ -26,3 +26,8 @@ p2.textContent = 'ME TOO!';
 container.appendChild(p);
 container.appendChild(h3);
 container.appendChild(div);
+
+btn.addEventListener('click', function (e){
+    e.target.style.background = 'blue';
+    console.log(e.target);
+});
